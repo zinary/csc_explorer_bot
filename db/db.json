@@ -1,0 +1,56 @@
+{
+  "dapps": [
+    {
+      "id": 0,
+      "name": "One Swap",
+      "description": "One Swap",
+      "url": "www.oneswap.com",
+      "socials": [
+        {
+          "id": 0,
+          "name": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "IF Swap",
+      "description": "IF Swap",
+      "url": "www.ifswap.com",
+      "socials": [
+        {
+          "id": 0,
+          "name": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "WaterLoan",
+      "description": "IF Swap",
+      "url": "https://waterloan.finance/",
+      "socials": [
+        {
+          "id": 0,
+          "name": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "IF Pool",
+      "description": "IF Swap",
+      "url": "https://waterloan.finance/",
+      "socials": [
+        {
+          "id": 0,
+          "name": "",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}
