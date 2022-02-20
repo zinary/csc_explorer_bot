@@ -343,12 +343,12 @@ def get_transaction_status_type(status_code: int):
 
 def transactions(update: Update, context: CallbackContext) -> None:
     show_typing(update, context)
-    response = repo.api_request(repo.TRANSACTIONS.format(int(time()) - 60, int(time())))
+    response = repo.api_request(repo.TRANSACTIONS.format(int(time()) - 120, int(time())))
     if response.code != 0:
         update.message.reply_text(response.message)
     else:
         if len(response.data) == 0:
-            update.message.reply_text("<b>No transactions have been made at the last minute</b>\n\n",
+            update.message.reply_text("<b>No transactions have been made at the last 2 minutes</b>\n\n",
                                       parse_mode=ParseMode.HTML, disable_web_page_preview=True)
         else:
             tx_list = list()
