@@ -249,7 +249,7 @@ def balances(update: Update, context: CallbackContext) -> None:
                 message += f"""
 
 <b>Name :</b> {crc20.token_info.name}
-<b>Symbol :</b> {crc20.token_info.name}
+<b>Symbol :</b> {crc20.token_info.symbol}
 <b>Address :</b>  \n{crc20.token_info.contract}
 <b>Balance :</b>  {format_float(crc20.balance)}
 \n
