@@ -247,7 +247,6 @@ def balances(update: Update, context: CallbackContext) -> None:
 
             for crc20 in balance_list.crc20:
                 message += f"""
-
 <b>Name :</b> {crc20.token_info.name}
 <b>Symbol :</b> {crc20.token_info.symbol}
 <b>Address :</b> <code> \n{crc20.token_info.contract} </code>
