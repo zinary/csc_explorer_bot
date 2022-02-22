@@ -225,9 +225,9 @@ def cet_balance(update: Update, context: CallbackContext) -> None:
 
             update.message.reply_text(
                 f"""
-<b>Address :</b>  \n{cet_bal.address.address}
+<b>Address :</b>  \n <code> {cet_bal.address.address} </code>
 
-<b>Balance :</b>  {format_float(cet_bal.balance)}
+<b>Balance :</b>  {format_float(cet_bal.balance)} CET
     """, parse_mode=ParseMode.HTML)
     else:
         update.message.reply_text("Use /cet_balance <address> to get CET balance of an address")
