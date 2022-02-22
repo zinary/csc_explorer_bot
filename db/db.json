@@ -3,7 +3,7 @@
     {
       "id": 0,
       "name": "One Swap",
-      "description": "One Swap",
+      "description": "The first multi-chain DEX in the CSC ecosystem",
       "url": "www.oneswap.com",
       "socials": [
         {
@@ -14,9 +14,9 @@
       ]
     },
     {
-      "id": 0,
+      "id": 1,
       "name": "IF Swap",
-      "description": "IF Swap",
+      "description": "An open AMM protocol on CSC, which supports Swap, Pool and Farm functions.",
       "url": "www.ifswap.com",
       "socials": [
         {
@@ -27,9 +27,9 @@
       ]
     },
     {
-      "id": 0,
+      "id": 2,
       "name": "WaterLoan",
-      "description": "IF Swap",
+      "description": "The first lending and borrowing product on CSC",
       "url": "https://waterloan.finance/",
       "socials": [
         {
@@ -40,10 +40,23 @@
       ]
     },
     {
-      "id": 0,
+      "id": 3,
       "name": "IF Pool",
-      "description": "IF Swap",
-      "url": "https://waterloan.finance/",
+      "description": "The first mining pool pledge product in the CSC ecosystem",
+      "url": "https://ifpool.io/",
+      "socials": [
+        {
+          "id": 0,
+          "name": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "GemGard Finance",
+      "description": "A comprehensive DEX that distributes 80% of the platform revenue to users as dividends, a source of passive income.",
+      "url": "http://csc.gemgard.finance/",
       "socials": [
         {
           "id": 0,
