@@ -397,6 +397,28 @@ CET / BTC / ETH / BNB / USDT
 """, parse_mode=ParseMode.HTML)
 
 
+def wallet_setup(update: Update, context: CallbackContext) -> None:
+    show_typing(update, context)
+    update.message.reply_text(
+        f"""
+<i># Mainnet configuration</i>
+
+rpc: <code>https://rpc.coinex.net</code>
+chainID: <code>52</code>
+symbol: <code>CET</code>
+explorer: <code>https://www.coinex.net</code>
+
+
+<i># Testnet configuration</i>
+
+rpc: <code>https://testnet-rpc.coinex.net</code>
+chainID: <code>53</code>
+symbol: <code>tCET</code>
+explorer: <code>https://testnet.coinex.net</code>
+
+""", parse_mode=ParseMode.HTML)
+
+
 def explorer(update: Update, context: CallbackContext) -> None:
     show_typing(update, context)
     text = """
@@ -486,8 +508,8 @@ def main() -> None:
     dispatcher.add_handler(CommandHandler("balances", balances))
     dispatcher.add_handler(CommandHandler("holders", cet_holders))
     dispatcher.add_handler(CommandHandler("info", info))
-    # dispatcher.add_handler(CommandHandler("donate", donate))
     dispatcher.add_handler(CommandHandler("explorer", explorer))
+    dispatcher.add_handler(CommandHandler("wallet_setup", wallet_setup))
     dispatcher.add_handler(CommandHandler("dapps", dapps))
 
     # Start the Bot
