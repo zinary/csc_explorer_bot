@@ -69,6 +69,7 @@ def help_command(update: Update, context: CallbackContext) -> None:
 /balances  &lt;address&gt;  - Get the tokens by address
 /holders - Number of CET holders
 /explorer - Links of the CSC Explorers
+/wallet_setup - Wallet network setup information
 /dapps - Links of dApps in the CSC Ecosystem
 /info - Information about the bot
 /help - How to use the bot
